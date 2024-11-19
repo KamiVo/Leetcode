@@ -3,4 +3,4 @@ project(Leetcode)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Leetcode 1507_Reformat_Date.cpp)
+add_executable(1507 1507_Reformat_Date.cpp)
