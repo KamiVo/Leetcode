@@ -84,6 +84,50 @@ build 1507.exe: CXX_EXECUTABLE_LINKER__1507_Debug CMakeFiles/1507.dir/1507_Refor
   TARGET_IMPLIB = lib1507.dll.a
   TARGET_PDB = 1507.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1332
+
+
+#############################################
+# Order-only phony target for 1332
+
+build cmake_object_order_depends_target_1332: phony || .
+
+build CMakeFiles/1332.dir/1332_Remove_Palindromic_Subsequences.cpp.obj.ddi: CXX_SCAN__1332_Debug D$:/C++/Leetcode/1332_Remove_Palindromic_Subsequences.cpp || cmake_object_order_depends_target_1332
+  DEP_FILE = CMakeFiles\1332.dir\1332_Remove_Palindromic_Subsequences.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\1332.dir\1332_Remove_Palindromic_Subsequences.cpp.obj.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles\1332.dir\1332_Remove_Palindromic_Subsequences.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\1332.dir\1332_Remove_Palindromic_Subsequences.cpp.obj.ddi.i
+
+build CMakeFiles/1332.dir/1332_Remove_Palindromic_Subsequences.cpp.obj: CXX_COMPILER__1332_scanned_Debug D$:/C++/Leetcode/1332_Remove_Palindromic_Subsequences.cpp | CMakeFiles/1332.dir/1332_Remove_Palindromic_Subsequences.cpp.obj.modmap || cmake_object_order_depends_target_1332 CMakeFiles/1332.dir/CXX.dd
+  DEP_FILE = CMakeFiles\1332.dir\1332_Remove_Palindromic_Subsequences.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\1332.dir\1332_Remove_Palindromic_Subsequences.cpp.obj.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1332.dir
+  OBJECT_FILE_DIR = CMakeFiles\1332.dir
+  dyndep = CMakeFiles/1332.dir/CXX.dd
+
+build CMakeFiles/1332.dir/CXX.dd | D$:/C++/Leetcode/cmake-build-debug/CMakeFiles/1332.dir/CXXModules.json CMakeFiles/1332.dir/1332_Remove_Palindromic_Subsequences.cpp.obj.modmap: CXX_DYNDEP__1332_Debug CMakeFiles/1332.dir/1332_Remove_Palindromic_Subsequences.cpp.obj.ddi | D$:/C++/Leetcode/cmake-build-debug/CMakeFiles/1332.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1332
+
+
+#############################################
+# Link the executable 1332.exe
+
+build 1332.exe: CXX_EXECUTABLE_LINKER__1332_Debug CMakeFiles/1332.dir/1332_Remove_Palindromic_Subsequences.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1332.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1332.exe
+  TARGET_IMPLIB = lib1332.dll.a
+  TARGET_PDB = 1332.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -110,6 +154,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 1332: phony 1332.exe
+
 build 1507: phony 1507.exe
 
 # =============================================================================
@@ -120,7 +166,7 @@ build 1507: phony 1507.exe
 #############################################
 # Folder: D:/C++/Leetcode/cmake-build-debug
 
-build all: phony 1507.exe
+build all: phony 1507.exe 1332.exe
 
 # =============================================================================
 # Built-in targets
