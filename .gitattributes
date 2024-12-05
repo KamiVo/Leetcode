@@ -1,10 +1,12 @@
+# Ignore build scripts and auxiliary files
+Makefile linguist-generated
+*.mk linguist-generated
+*.cmake linguist-generated
+CMakeLists.txt linguist-generated
+
 # Ignore SWIG interface files
 *.i linguist-vendored
 *.swig linguist-vendored
-
-# Ignore build scripts and configuration files
-*.cmake linguist-vendored
-CMakeLists.txt linguist-vendored
 
 # Ensure C++ files are classified correctly
 *.cpp linguist-detectable
