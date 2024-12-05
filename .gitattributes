@@ -7,6 +7,8 @@ Makefile linguist-generated
 *.mk linguist-generated
 *.cmake linguist-generated
 CMakeLists.txt linguist-generated
+*.h linguist-generated
+*.hpp linguist-generated
 
 # Ensure C++ files are classified correctly
 *.cpp linguist-detectable
