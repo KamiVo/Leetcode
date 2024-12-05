@@ -128,6 +128,50 @@ build 1332.exe: CXX_EXECUTABLE_LINKER__1332_Debug CMakeFiles/1332.dir/1332_Remov
   TARGET_IMPLIB = lib1332.dll.a
   TARGET_PDB = 1332.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2409
+
+
+#############################################
+# Order-only phony target for 2409
+
+build cmake_object_order_depends_target_2409: phony || .
+
+build CMakeFiles/2409.dir/2409_Count_Days_Spent_Together.cpp.obj.ddi: CXX_SCAN__2409_Debug D$:/C++/Leetcode/2409_Count_Days_Spent_Together.cpp || cmake_object_order_depends_target_2409
+  DEP_FILE = CMakeFiles\2409.dir\2409_Count_Days_Spent_Together.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\2409.dir\2409_Count_Days_Spent_Together.cpp.obj.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles\2409.dir\2409_Count_Days_Spent_Together.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\2409.dir\2409_Count_Days_Spent_Together.cpp.obj.ddi.i
+
+build CMakeFiles/2409.dir/2409_Count_Days_Spent_Together.cpp.obj: CXX_COMPILER__2409_scanned_Debug D$:/C++/Leetcode/2409_Count_Days_Spent_Together.cpp | CMakeFiles/2409.dir/2409_Count_Days_Spent_Together.cpp.obj.modmap || cmake_object_order_depends_target_2409 CMakeFiles/2409.dir/CXX.dd
+  DEP_FILE = CMakeFiles\2409.dir\2409_Count_Days_Spent_Together.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\2409.dir\2409_Count_Days_Spent_Together.cpp.obj.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2409.dir
+  OBJECT_FILE_DIR = CMakeFiles\2409.dir
+  dyndep = CMakeFiles/2409.dir/CXX.dd
+
+build CMakeFiles/2409.dir/CXX.dd | D$:/C++/Leetcode/cmake-build-debug/CMakeFiles/2409.dir/CXXModules.json CMakeFiles/2409.dir/2409_Count_Days_Spent_Together.cpp.obj.modmap: CXX_DYNDEP__2409_Debug CMakeFiles/2409.dir/2409_Count_Days_Spent_Together.cpp.obj.ddi | D$:/C++/Leetcode/cmake-build-debug/CMakeFiles/2409.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2409
+
+
+#############################################
+# Link the executable 2409.exe
+
+build 2409.exe: CXX_EXECUTABLE_LINKER__2409_Debug CMakeFiles/2409.dir/2409_Count_Days_Spent_Together.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2409.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2409.exe
+  TARGET_IMPLIB = lib2409.dll.a
+  TARGET_PDB = 2409.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -158,6 +202,8 @@ build 1332: phony 1332.exe
 
 build 1507: phony 1507.exe
 
+build 2409: phony 2409.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -166,7 +212,7 @@ build 1507: phony 1507.exe
 #############################################
 # Folder: D:/C++/Leetcode/cmake-build-debug
 
-build all: phony 1507.exe 1332.exe
+build all: phony 1507.exe 1332.exe 2409.exe
 
 # =============================================================================
 # Built-in targets
