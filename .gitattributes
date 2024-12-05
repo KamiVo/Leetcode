@@ -10,5 +10,3 @@ CMakeLists.txt linguist-generated
 
 # Ensure C++ files are classified correctly
 *.cpp linguist-detectable
-*.h linguist-detectable
-*.hpp linguist-detectable
