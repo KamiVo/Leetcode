@@ -3,7 +3,7 @@
 *.swig linguist-vendored
 
 # Ignore build scripts and auxiliary files
-Makefile linguist-generated
+CMakefile linguist-generated
 *.mk linguist-generated
 *.cmake linguist-generated
 CMakeLists.txt linguist-generated
