@@ -3,10 +3,11 @@
 *.swig linguist-vendored
 
 # Ignore build scripts and auxiliary files
-CMakefile linguist-generated
+Makefile linguist-vendored
 *.mk linguist-generated
 *.cmake linguist-generated
 CMakeLists.txt linguist-generated
+CMakeFiles linguist-generated
 
 # Ensure C++ files are classified correctly
 *.cpp linguist-detectable
