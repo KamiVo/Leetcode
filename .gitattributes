@@ -1,0 +1,12 @@
+# Ignore SWIG interface files
+*.i linguist-vendored
+*.swig linguist-vendored
+
+# Ignore build scripts and configuration files
+*.cmake linguist-generated
+CMakeLists.txt linguist-generated
+
+# Ensure C++ files are classified correctly
+*.cpp linguist-detectable
+*.h linguist-detectable
+*.hpp linguist-detectable
